@@ -1,0 +1,43 @@
+{
+  "sample_id": "img_0001",
+  "original_text": "Menu\nAppetizers\nMain Course\nDesserts",
+  "difficulty": 0.0,
+  "variants": {
+    "A": {
+      "type": "slightly_flawed",
+      "issues": [
+        "compression",
+        "blur",
+        "font_mismatch",
+        "size_inconsistency",
+        "kerning_jitter",
+        "alignment_drift",
+        "line_break_degradation",
+        "contrast_mismatch",
+        "line_spacing_inconsistency",
+        "missing_attribution_styling"
+      ]
+    },
+    "B": {
+      "type": "best",
+      "quality_score": 0.95
+    },
+    "C": {
+      "type": "bad",
+      "issues": [
+        "heavy_blur",
+        "artifacts",
+        "color_shift",
+        "font_mismatch",
+        "size_inconsistency",
+        "kerning_jitter",
+        "alignment_drift",
+        "line_break_degradation",
+        "contrast_mismatch",
+        "line_spacing_inconsistency",
+        "missing_attribution_styling"
+      ]
+    }
+  },
+  "created": "2026-04-09T22:48:05.347426"
+}

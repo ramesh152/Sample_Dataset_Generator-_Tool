@@ -1,0 +1,90 @@
+{
+  "name": "VLM_Dataset_20260409_231254",
+  "created": "2026-04-09T23:12:55.458670",
+  "total_samples": 1,
+  "image_size": [
+    800,
+    600
+  ],
+  "samples": [
+    {
+      "sample_id": "img_0001",
+      "original_text": "Product Title\n\u2605\u2605\u2605\u2605\u2605 (1,234 reviews)\nPrice: $29.99",
+      "difficulty": 0.0,
+      "variants": {
+        "A": {
+          "type": "slightly_flawed",
+          "issues": [
+            "compression",
+            "blur",
+            "font_mismatch",
+            "size_inconsistency",
+            "kerning_jitter",
+            "alignment_drift",
+            "line_break_degradation",
+            "contrast_mismatch",
+            "line_spacing_inconsistency",
+            "missing_attribution_styling"
+          ]
+        },
+        "B": {
+          "type": "best",
+          "quality_score": 0.95
+        },
+        "C": {
+          "type": "bad",
+          "issues": [
+            "heavy_blur",
+            "artifacts",
+            "color_shift",
+            "font_mismatch",
+            "size_inconsistency",
+            "kerning_jitter",
+            "alignment_drift",
+            "line_break_degradation",
+            "contrast_mismatch",
+            "line_spacing_inconsistency",
+            "missing_attribution_styling"
+          ]
+        }
+      },
+      "background_consistency": {
+        "shared_source_background_across_group": true,
+        "artifacts_restricted_to_text_bbox": true
+      },
+      "text_bboxes": {
+        "input": [
+          280,
+          257,
+          519,
+          332
+        ],
+        "expected": [
+          280,
+          257,
+          519,
+          332
+        ],
+        "A": [
+          262,
+          262,
+          536,
+          338
+        ],
+        "B": [
+          280,
+          257,
+          519,
+          332
+        ],
+        "C": [
+          256,
+          251,
+          543,
+          342
+        ]
+      },
+      "created": "2026-04-09T23:12:55.456929"
+    }
+  ]
+}

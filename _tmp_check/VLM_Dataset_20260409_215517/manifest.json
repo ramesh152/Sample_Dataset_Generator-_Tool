@@ -1,0 +1,44 @@
+{
+  "name": "VLM_Dataset_20260409_215517",
+  "created": "2026-04-09T21:55:18.553681",
+  "total_samples": 1,
+  "image_size": [
+    800,
+    600
+  ],
+  "samples": [
+    {
+      "sample_id": "img_0001",
+      "original_text": "Poster\nEvent: Concert\nDate: June 15",
+      "difficulty": 0.0,
+      "variants": {
+        "A": {
+          "type": "slightly_flawed",
+          "issues": [
+            "compression",
+            "blur",
+            "font_mismatch",
+            "size_inconsistency",
+            "kerning_jitter"
+          ]
+        },
+        "B": {
+          "type": "best",
+          "quality_score": 0.95
+        },
+        "C": {
+          "type": "bad",
+          "issues": [
+            "heavy_blur",
+            "artifacts",
+            "color_shift",
+            "font_mismatch",
+            "size_inconsistency",
+            "kerning_jitter"
+          ]
+        }
+      },
+      "created": "2026-04-09T21:55:18.551771"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "img_0001",
+  "original_text": "Settings Form\nLanguage: English\nTheme: Dark",
+  "difficulty": 0.0,
+  "variants": {
+    "A": {
+      "type": "slightly_flawed",
+      "issues": [
+        "compression",
+        "blur",
+        "contrast_mismatch",
+        "line_spacing_inconsistency"
+      ]
+    },
+    "B": {
+      "type": "best",
+      "quality_score": 0.95
+    },
+    "C": {
+      "type": "bad",
+      "issues": [
+        "heavy_blur",
+        "artifacts",
+        "color_shift",
+        "contrast_mismatch",
+        "line_spacing_inconsistency"
+      ]
+    }
+  },
+  "created": "2026-04-09T22:29:04.146069"
+}

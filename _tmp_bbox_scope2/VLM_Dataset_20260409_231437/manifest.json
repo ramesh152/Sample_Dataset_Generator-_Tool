@@ -1,0 +1,90 @@
+{
+  "name": "VLM_Dataset_20260409_231437",
+  "created": "2026-04-09T23:14:38.822154",
+  "total_samples": 1,
+  "image_size": [
+    800,
+    600
+  ],
+  "samples": [
+    {
+      "sample_id": "img_0001",
+      "original_text": "Lorem ipsum dolor sit\namet, consectetur adipiscing",
+      "difficulty": 0.0,
+      "variants": {
+        "A": {
+          "type": "slightly_flawed",
+          "issues": [
+            "compression",
+            "blur",
+            "font_mismatch",
+            "size_inconsistency",
+            "kerning_jitter",
+            "alignment_drift",
+            "line_break_degradation",
+            "contrast_mismatch",
+            "line_spacing_inconsistency",
+            "missing_attribution_styling"
+          ]
+        },
+        "B": {
+          "type": "best",
+          "quality_score": 0.95
+        },
+        "C": {
+          "type": "bad",
+          "issues": [
+            "heavy_blur",
+            "artifacts",
+            "color_shift",
+            "font_mismatch",
+            "size_inconsistency",
+            "kerning_jitter",
+            "alignment_drift",
+            "line_break_degradation",
+            "contrast_mismatch",
+            "line_spacing_inconsistency",
+            "missing_attribution_styling"
+          ]
+        }
+      },
+      "background_consistency": {
+        "shared_source_background_across_group": true,
+        "artifacts_restricted_to_text_bbox": true
+      },
+      "text_bboxes": {
+        "input": [
+          262,
+          270,
+          537,
+          320
+        ],
+        "expected": [
+          262,
+          270,
+          537,
+          320
+        ],
+        "A": [
+          237,
+          268,
+          561,
+          330
+        ],
+        "B": [
+          262,
+          270,
+          537,
+          320
+        ],
+        "C": [
+          267,
+          255,
+          533,
+          344
+        ]
+      },
+      "created": "2026-04-09T23:14:38.820558"
+    }
+  ]
+}

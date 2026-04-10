@@ -1,0 +1,33 @@
+{
+  "sample_id": "img_0001",
+  "original_text": "Invoice #2024-001\nAmount Due: $1,234.56\nDue Date: 2024-04-15",
+  "difficulty": 0.0,
+  "variants": {
+    "A": {
+      "type": "slightly_flawed",
+      "issues": [
+        "compression",
+        "blur",
+        "font_mismatch",
+        "size_inconsistency",
+        "kerning_jitter"
+      ]
+    },
+    "B": {
+      "type": "best",
+      "quality_score": 0.95
+    },
+    "C": {
+      "type": "bad",
+      "issues": [
+        "heavy_blur",
+        "artifacts",
+        "color_shift",
+        "font_mismatch",
+        "size_inconsistency",
+        "kerning_jitter"
+      ]
+    }
+  },
+  "created": "2026-04-09T21:56:52.211179"
+}

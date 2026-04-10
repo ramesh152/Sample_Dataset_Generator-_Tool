@@ -1,0 +1,29 @@
+{
+  "sample_id": "img_0001",
+  "original_text": "Database\nHost: db.example.com\nPort: 5432",
+  "difficulty": 0.0,
+  "variants": {
+    "A": {
+      "type": "slightly_flawed",
+      "issues": [
+        "compression",
+        "blur",
+        "missing_attribution_styling"
+      ]
+    },
+    "B": {
+      "type": "best",
+      "quality_score": 0.95
+    },
+    "C": {
+      "type": "bad",
+      "issues": [
+        "heavy_blur",
+        "artifacts",
+        "color_shift",
+        "missing_attribution_styling"
+      ]
+    }
+  },
+  "created": "2026-04-09T22:35:19.023405"
+}
